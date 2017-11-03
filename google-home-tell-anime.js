@@ -49,7 +49,7 @@ app.listen(serverPort, function () {
 function getFeed(){
     var FeedParser = require('feedparser');
     var request = require('request');
-    var feed = 'http://cal.syoboi.jp/rss.php?usr=sunoho&filter=1&start=today&count=150&days=1&titlefmt=%24(ShortTitle)';
+    var feed = 'http://cal.syoboi.jp/rss.php?usr=[your id]&filter=1&start=today&count=150&days=1&titlefmt=%24(ShortTitle)';
 
     var req = request(feed);
     var feedparser = new FeedParser({});
