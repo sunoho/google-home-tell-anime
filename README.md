@@ -11,10 +11,10 @@ Google Home に今日これから放送されるアニメをお知らせして�
 
 ### 必要なもの
 - node.js
-- google-home-notifier
-- ngrok
-- feedparser
-- request
+ - google-home-notifier
+ - ngrok
+ - feedparser
+ - request
 - 強調設定したしょぼいカレンダーの RSS フィード
 
 ### 設定
